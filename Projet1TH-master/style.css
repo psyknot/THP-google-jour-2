@@ -1,0 +1,38 @@
+body {
+  background-color: white;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/*
+#main {
+  margin: auto;
+  width: 800px;
+  border: 1px solid black;
+}
+*/
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  height: 300px;
+}
+
+#logo {
+  text-align: center;
+}
